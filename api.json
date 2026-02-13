@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/vodyanoy",
     "maintainers": [
       {
@@ -18,323 +16,82 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "vodyanoy",
     "name": "Vodyanoy",
-    "aliases": [
-      {
-        "name": "Vodyanoi",
-        "language": "Russian",
-        "region": "Russia"
-      },
-      {
-        "name": "Vodnik",
-        "language": "Slavic",
-        "region": "Various Slavic regions"
-      },
-      {
-        "name": "Водяной",
-        "language": "Russian (Cyrillic)",
-        "region": "Russia"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Water Spirit",
+    "subcategory": "Guardian/Territorial",
     "tags": [
-      "spirit",
-      "water-spirit",
-      "slavic",
-      "russian",
       "folklore",
-      "guardian",
-      "malevolent",
-      "river-spirit"
+      "mythology"
     ],
-    "status": "traditional folklore",
+    "status": "documented",
     "description": {
-      "summary": "Slavic male water spirit serving as river and lake guardian. Appears as an old man with green hair and beard, fish tail, and frog-like features. Drowns those who swim without permission, breaks dams, and protects fish. Requires offerings from fishermen for safe passage.",
-      "full": "Vodyanoy is a male water spirit from Slavic folklore, particularly prominent in Russian traditions. Described as an old man with green hair and beard, fish tail, frog-like features, and slimy appearance, the Vodyanoy rules over specific bodies of water (rivers, lakes, ponds). The spirit is generally malevolent and dangerous, drowning people who swim or fish without proper permission or respect, breaking dams and mills, and protecting fish populations from over-fishing. Fishermen traditionally offer tobacco, bread, or alcohol to gain the Vodyanoy's favor and fish safely. Each Vodyanoy rules a specific water body and may have territorial disputes with other vodyanoy. The spirit commands fish and water creatures and is said to keep drowned souls as servants. Related to but distinct from Rusalka (female water spirits), the Vodyanoy represents the dangerous and unpredictable nature of water. The tradition remains part of Slavic folklore and neopagan practices, historically serving to teach water safety."
+      "summary": "Vodyanoy is a male water spirit from Slavic folklore, particularly prominent in Russian traditions.",
+      "full": "Vodyanoy is a male water spirit from Slavic folklore, particularly prominent in Russian traditions. Described as an old man with green hair and beard, fish tail, frog-like features, and slimy appearance, the Vodyanoy rules over specific bodies of water (rivers, lakes, ponds). The spirit is generally malevolent and dangerous, drowning people who swim or fish without proper permission or respect, breaking dams and mills, and protecting fish populations from over-fishing. Fishermen traditionally offer tobacco, bread, or alcohol to gain the Vodyanoy's favor and fish safely. Each Vodyanoy rules a specific water body and may have territorial disputes with other vodyanoy. The spirit commands fish and water creatures and is said to keep drowned souls as servants. Related to but distinct from Rusalka (female water spirits), the Vodyanoy represents the dangerous and unpredictable nature of water."
     },
     "etymology": {
-      "origin": "From Slavic/Russian 'voda' (water) + suffix '-oy' (one who), literally 'water one' or 'one of the water'.",
-      "meaning": "Water spirit, water demon, one of the water",
-      "first_use": "Pre-Christian Slavic traditions"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Water Spirit",
-      "subtype": "Guardian/Territorial",
-      "variant": "Slavic/Russian"
+      "type": "Guardian/Territorial",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "rusalka",
-        "name": "Rusalka",
-        "relationship": "related",
-        "description": "Slavic female water spirits"
-      },
-      {
-        "id": "neck",
-        "name": "Neck/Nix",
-        "relationship": "similar",
-        "description": "Germanic water spirits"
-      },
-      {
-        "id": "kelpie",
-        "name": "Kelpie",
-        "relationship": "similar",
-        "description": "Scottish water horse spirit"
-      },
-      {
-        "id": "each-uisge",
-        "name": "Each-uisge",
-        "relationship": "similar",
-        "description": "Scottish water horse, more dangerous than Kelpie"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": {
-        "description": "Old man with green hair and beard, fish tail, frog-like features, slimy appearance",
-        "confidence": "high"
-      },
-      "coloration": [
-        "green hair",
-        "green beard",
-        "pale or greenish skin"
-      ],
-      "features": [
-        {
-          "feature": "Green hair and beard",
-          "description": "Hair and beard are green, often with algae or water plants",
-          "frequency": "always"
-        },
-        {
-          "feature": "Fish tail",
-          "description": "Lower body as fish tail (merman-like)",
-          "frequency": "common"
-        },
-        {
-          "feature": "Frog-like features",
-          "description": "Face and features resembling frog or amphibian",
-          "frequency": "common"
-        },
-        {
-          "feature": "Slimy appearance",
-          "description": "Covered in slime, algae, or water",
-          "frequency": "always"
-        },
-        {
-          "feature": "Old man appearance",
-          "description": "Appears as elderly man",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Humanoid upper body with fish-like lower body. Elderly male appearance with distinctly aquatic features. Covered in water, slime, and algae."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Drowning",
-        "description": "Can drown swimmers and fishermen who disrespect his waters",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Breaking dams",
-        "description": "Destroys dams and water mills",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Commanding water creatures",
-        "description": "Controls fish and other water creatures",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Enslaving drowned souls",
-        "description": "Keeps souls of drowned victims as servants",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Water control",
-        "description": "Can control water levels and currents in his domain",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "primarily nocturnal, but active day and night",
-      "disposition": "malevolent, territorial, dangerous",
-      "social_structure": "solitary (one per water body)",
-      "habitat_preference": [
-        "rivers",
-        "lakes",
-        "ponds",
-        "water mills",
-        "deep pools"
-      ],
-      "patterns": [
-        "Rules specific water body",
-        "Drowns those swimming without permission",
-        "Requires offerings from fishermen",
-        "Protects fish populations",
-        "Breaks dams and mills",
-        "Territorial disputes with other vodyanoy",
-        "More dangerous at night"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Slavic regions, particularly strong in Russian folklore. Found wherever Slavic water spirit traditions exist.",
-      "continents": ["Europe"],
-      "countries": ["Russia", "Ukraine", "Belarus", "Poland", "Czech Republic", "Other Slavic regions"],
-      "regions": [
-        "Russia (widespread)",
-        "Ukraine",
-        "Belarus",
-        "Eastern Europe",
-        "Slavic territories"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-Christian",
+        "date": "Unknown",
         "circa": true,
-        "source": "Pre-Christian Slavic paganism and oral traditions"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Pre-Christian to medieval",
-          "description": "Height of Slavic pagan water spirit beliefs"
-        },
-        {
-          "period": "Present",
-          "description": "Maintained in folklore and Slavic neopaganism"
-        }
-      ],
-      "seasonal_patterns": "More active and dangerous in spring (flooding season) and at night"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Vodyanoy originates from pre-Christian Slavic paganism, representing the dangerous and unpredictable power of water. The spirit served to explain drownings, water-related disasters, and to enforce respect for water bodies and fish populations.",
-      "earliest_accounts": "Pre-Christian Slavic oral traditions, with written documentation appearing after Christianization.",
-      "folklore_connections": "Part of broader Slavic water spirit traditions including Rusalka. Related to Germanic Neck/Nix and other European water spirits. Represents universal human relationship with dangerous water bodies."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-Christian",
-        "event": "Slavic pagan traditions established",
-        "significance": "Vodyanoy as part of Slavic nature spirit pantheon",
-        "source": "Oral tradition"
-      },
-      {
-        "date": "Medieval period",
-        "event": "Written documentation begins",
-        "significance": "Christian chroniclers document pagan water spirit beliefs",
-        "source": "Medieval chronicles"
-      },
-      {
-        "date": "19th century",
-        "event": "Folklore collection",
-        "significance": "Systematic collection of Russian and Slavic folklore",
-        "source": "Folklorists' collections"
-      },
-      {
-        "date": "Present",
-        "event": "Cultural preservation",
-        "significance": "Maintained in folklore, literature, and Slavic neopaganism",
-        "source": "Contemporary folklore and practice"
-      }
-    ],
-    "modern_era": "Vodyanoy remains part of Slavic cultural heritage, appearing in children's stories, folklore collections, literature, and Slavic neopagan practices. The tradition serves as water safety education and cultural identity preservation."
+    "timeline": []
   },
-
-  "offerings": {
-    "traditional_offerings": [
-      {
-        "offering": "Tobacco",
-        "description": "Most common offering, thrown into water",
-        "purpose": "Gain permission to fish",
-        "frequency": "common"
-      },
-      {
-        "offering": "Bread",
-        "description": "Bread thrown into water as offering",
-        "purpose": "Appease spirit, safe passage",
-        "frequency": "common"
-      },
-      {
-        "offering": "Alcohol",
-        "description": "Vodka or other alcohol poured into water",
-        "purpose": "Gain favor for fishing or swimming",
-        "frequency": "occasional"
-      },
-      {
-        "offering": "Respect to fish",
-        "description": "Not taking more fish than needed, returning small fish",
-        "purpose": "Show respect to Vodyanoy's domain",
-        "frequency": "always"
-      }
-    ]
-  },
-
-  "protection": {
-    "methods": [
-      {
-        "method": "Ask permission",
-        "description": "Ask Vodyanoy's permission before swimming or fishing",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Leave offerings",
-        "description": "Offer tobacco, bread, or alcohol before fishing",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Show respect",
-        "description": "Don't overfishing, respect fish, respect water",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Avoid night swimming",
-        "description": "Don't swim at night when Vodyanoy is most active",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Cross yourself",
-        "description": "Christian practice to ward off pagan spirits",
-        "effectiveness": "medium"
-      }
-    ]
-  },
-
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0,
-      "date_range": {
-        "earliest": "Pre-Christian",
-        "latest": "Present (folklore)"
-      }
+      "debunked": 0
     },
     "notable": [],
-    "database_path": null
+    "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -342,117 +99,28 @@
     "audio": [],
     "trace": []
   },
-
   "theories": {
-    "folkloric": [
-      {
-        "name": "Water safety teaching",
-        "description": "Vodyanoy tradition served to teach water safety and prevent drownings",
-        "proponents": ["Folklorists", "Cultural anthropologists"],
-        "evidence_cited": ["Focus on drowning danger", "Permission/offering requirements", "Night swimming warnings", "Effective safety education through folklore"]
-      },
-      {
-        "name": "Resource conservation",
-        "description": "Tradition enforced sustainable fishing practices and water resource respect",
-        "proponents": ["Environmental folklorists"],
-        "evidence_cited": ["Fish protection emphasis", "Offerings as acknowledgment of taking", "Punishment for overfishing", "Respect for water bodies"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Pagan water deity",
-        "description": "Vodyanoy as survival of pre-Christian Slavic water god or spirit",
-        "proponents": ["Religious historians", "Pagan scholars"],
-        "evidence_cited": ["Pre-Christian origins", "Territorial nature (each water body)", "Requires offerings/worship", "Power over domain"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Russian water spirit folklore",
-        "Slavic pagan traditions",
-        "Fishermen's superstitions and practices"
-      ],
-      "stories": [
-        "Tales of drowned fishermen who disrespected Vodyanoy",
-        "Stories of successful offerings and safe fishing",
-        "Accounts of broken dams and mills",
-        "Legends of territorial battles between vodyanoy"
-      ],
-      "beliefs": "Historically treated as real entity requiring respect and offerings. Fishermen and those living near water took Vodyanoy seriously. Today maintained as folklore and cultural tradition."
-    },
-    "indigenous": {
-      "cultures": [
-        "Russian",
-        "Ukrainian",
-        "Belarusian",
-        "Polish",
-        "Other Slavic peoples"
-      ],
-      "significance": "Part of pre-Christian Slavic spirituality and nature worship. Represents relationship between humans and dangerous natural forces. Important for water safety education and sustainable fishing practices.",
-      "sensitivity_note": "Vodyanoy is part of Slavic cultural heritage and, for some, living spiritual tradition in Slavic neopaganism. Approach with respect for cultural significance.",
-      "respect_guidelines": "Recognize as serious cultural tradition with practical functions. Avoid mockery. Understand connection to pre-Christian Slavic spirituality."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Russian fairy tales and folklore collections",
-        "Children's stories featuring Vodyanoy",
-        "Slavic folklore anthologies"
-      ],
-      "film_tv": [
-        "Russian and Slavic cultural films",
-        "Animated children's programs",
-        "Fantasy films featuring Slavic mythology"
-      ],
-      "games": [
-        "The Witcher series (Slavic mythology-based)",
-        "Various fantasy role-playing games"
-      ],
-      "other": [
-        "Slavic neopagan practices",
-        "Cultural festivals",
-        "Water safety education programs"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Alexander Afanasyev",
-        "affiliation": "Russian folklorist",
-        "contribution": "Major collection of Russian folklore including Vodyanoy traditions",
-        "period": "1800s"
-      },
-      {
-        "name": "Various Slavic folklorists",
-        "affiliation": "Regional folklore collectors",
-        "contribution": "Documentation of regional Vodyanoy variations",
-        "period": "1800s-present"
-      }
-    ],
+    "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Contemporary folklore studies, Slavic neopagan practices, cultural heritage preservation, water safety education through traditional stories."
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "afanasyev-folklore",
-      "type": "book",
-      "title": "Russian Fairy Tales and Folklore Collections",
-      "authors": ["Alexander Afanasyev"],
-      "publication": "Various publishers",
-      "date": "1800s"
-    },
-    {
-      "id": "slavic-folklore",
-      "type": "book",
-      "title": "Slavic Folklore Collections",
-      "authors": ["Various"],
-      "publication": "Various regional publishers",
-      "date": "Various"
-    }
-  ]
+  "sources": []
 }
