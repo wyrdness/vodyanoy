@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/vodyanoy",
     "maintainers": [
       {
@@ -16,72 +16,134 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "vodyanoy",
     "name": "Vodyanoy",
-    "aliases": [],
+    "aliases": [
+      { "name": "Vodyanoi", "language": "Russian (transliteration)" },
+      { "name": "Vodianoi", "language": "Russian (transliteration)" },
+      { "name": "Vodník", "language": "Czech/Slovak", "region": "Czech Republic, Slovakia" },
+      { "name": "Vodeni mož", "language": "Slovene", "region": "Slovenia" },
+      { "name": "Topielec", "language": "Polish", "region": "Poland", "meaning": "drowner" },
+      { "name": "Wassermann", "language": "German", "region": "Germanic-Slavic borderlands" },
+      { "name": "Bolotnik", "language": "Russian", "meaning": "swamp variant" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Guardian/Territorial",
+    "subcategory": "Slavic water spirit",
     "tags": [
+      "slavic",
+      "water-spirit",
+      "russian-folklore",
+      "guardian",
+      "river",
+      "lake",
       "folklore",
       "mythology"
     ],
     "status": "documented",
     "description": {
-      "summary": "Vodyanoy is a male water spirit from Slavic folklore, particularly prominent in Russian traditions.",
-      "full": "Vodyanoy is a male water spirit from Slavic folklore, particularly prominent in Russian traditions. Described as an old man with green hair and beard, fish tail, frog-like features, and slimy appearance, the Vodyanoy rules over specific bodies of water (rivers, lakes, ponds). The spirit is generally malevolent and dangerous, drowning people who swim or fish without proper permission or respect, breaking dams and mills, and protecting fish populations from over-fishing. Fishermen traditionally offer tobacco, bread, or alcohol to gain the Vodyanoy's favor and fish safely. Each Vodyanoy rules a specific water body and may have territorial disputes with other vodyanoy. The spirit commands fish and water creatures and is said to keep drowned souls as servants. Related to but distinct from Rusalka (female water spirits), the Vodyanoy represents the dangerous and unpredictable nature of water."
+      "summary": "A male water spirit of Slavic folklore, especially Russian, Czech, and Slovak traditions, said to inhabit rivers, lakes, mill-pools, and marshes; capricious, sometimes drowning humans and livestock, sometimes blessing fishermen and millers in return for offerings.",
+      "full": "The vodyanoy (Russian: водяной, 'he of the water') is a male water spirit central to Slavic folklore. Russian tradition describes him most often as a naked, paunchy old man with a long green beard and hair and a slimy, scaly, or moss-covered body, sometimes with frog- or fish-like features; he is a noted shape-shifter and may also appear as a fish, a log, or an ordinary peasant whose clothes drip water. Vodyanye dwell in deep pools, whirlpools, mill-races, kettle holes, and marshes (the marsh variant is called bolotnik), where they are said to own the fish and to ride wels catfish as mounts. Their behavior is ambivalent: they drown swimmers and livestock, break dams and mills when offended, and keep the souls of the drowned as servants, but they reward respectful fishermen and millers with abundant catches. Czech and Slovak vodník tradition shares many of these features but adds the motif of the spirit collecting drowned souls in lidded teacups under the water, popularised by Karel Jaromír Erben's 1853 ballad and Antonín Dvořák's symphonic poem Vodník (1896). The vodyanoy is closely associated with, but distinct from, the female rusalka and the swamp-dwelling bolotnik, and is part of the broader Slavic complex of household and place-spirits (domovoi, leshy, etc.)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Russian водяной (vodyanoy), an adjectival form of вода 'water'; cognate adjectives in other Slavic languages give vodník (Czech/Slovak), wodnik (Polish), and so on.",
+      "meaning": "'He of the water' or 'watery one'.",
+      "first_use": "Russian, Czech, and other Slavic ethnographic sources from the 19th century onwards; the underlying tradition is older."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Guardian/Territorial",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Water spirit",
+      "subtype": "Slavic water-guardian",
+      "variant": "Russian / West Slavic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rusalka", "name": "Rusalka", "relationship": "counterpart", "description": "Female Slavic water spirit; often paired with vodyanoy" },
+      { "id": "vodyanitsa", "name": "Vodyanitsa", "relationship": "counterpart", "description": "Female counterpart and frequent wife of vodyanoy" },
+      { "id": "leshy", "name": "Leshy", "relationship": "related", "description": "Slavic forest spirit; landward parallel to vodyanoy" },
+      { "id": "domovoi", "name": "Domovoi", "relationship": "related", "description": "Slavic household spirit" },
+      { "id": "vodnik", "name": "Vodník", "relationship": "regional_variant", "description": "Czech/Slovak counterpart of vodyanoy" },
+      { "id": "topielec", "name": "Topielec", "relationship": "regional_variant", "description": "Polish drowning spirit" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["green (hair and beard)", "slimy grey", "fish-scaled", "moss-covered"],
+      "features": [
+        { "feature": "Long green hair and beard", "description": "Most consistent feature; the hair and beard are sometimes said to wax and wane with the moon", "frequency": "common" },
+        { "feature": "Fat belly and naked body", "description": "Russian sources describe the vodyanoy as a paunchy, often naked old man", "frequency": "common" },
+        { "feature": "Slimy or scaly skin", "description": "Body covered in slime, scales, algae, or moss", "frequency": "common" },
+        { "feature": "Frog- or fish-like features", "description": "Reports vary; some give him webbed hands or a fish tail", "frequency": "occasional" },
+        { "feature": "Dripping clothes when in human form", "description": "When passing as human in a village, water continually drips from his garments and he leaves a wet trail", "frequency": "occasional" }
+      ],
+      "morphology": "Highly variable; vodyanoy is a notorious shape-shifter who may appear as an old man, a fish, a log, a flying tree-trunk, or a horse."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Takes the form of fish, logs, horses, peasants, and other shapes", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Drowning humans and livestock", "description": "Pulls swimmers, fishermen, and animals into the water; collects the souls of the drowned", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Mastery of fish and water creatures", "description": "Owns and commands the fish; rides a wels catfish as a mount", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Destruction of dams and mills", "description": "When offended, breaks dams, mills, and fishing weirs", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Granting good catches", "description": "Rewards respectful fishermen and millers with abundant catches and safe waters", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Foretelling harvests", "description": "Some Russian accounts describe vodyanye attending markets to foretell the year's grain prices", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "family_group",
+      "habitat_preference": ["deep river pools", "lakes", "mill-ponds", "whirlpools", "marshes (bolotnik variant)", "kettle holes"],
+      "diet": "Receives offerings rather than feeds in a defined way; owns the fish and may share or withhold them.",
+      "patterns": [
+        "Each vodyanoy rules a specific body of water",
+        "May have territorial disputes with neighbouring vodyanye",
+        "Marries vodyanitsy or drowned women, who become his wives",
+        "Receives offerings of bread, tobacco, butter, oil, or — at major events such as the building of a mill — sacrificed pigs, cattle, sheep, or chickens"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Vodyanoy and his counterparts are attested across the Slavic-speaking world: Russia, Belarus, Ukraine, Poland, Czech Republic, Slovakia, Slovenia, and parts of the Balkans.",
+      "continents": ["Europe"],
+      "countries": ["Russia", "Belarus", "Ukraine", "Poland", "Czech Republic", "Slovakia", "Slovenia"],
+      "regions": [
+        "European Russia",
+        "Bohemia and Moravia",
+        "Carpathians",
+        "Western Slavic lands"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "19th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Slavic ethnographic and folkloristic literature"
+      },
+      "peak_activity_periods": [
+        { "period": "19th century", "description": "Major documentation by Russian and Czech ethnographers (e.g., Aleksandr Afanasyev, Karel Jaromír Erben)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Christian Slavic religion of place-spirits, retained as folkloric beings after Christianization.",
+      "earliest_accounts": "The dense written record begins with 19th-century Slavic ethnography; the underlying tradition is much older.",
+      "folklore_connections": "Part of a broad Slavic ecology of place-spirits (domovoi, leshy, polevik, rusalka) and parallel to other European water-beings such as the Germanic Nix, the Scottish kelpie, and the Greek potamoi."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1853-01-01", "event": "Karel Jaromír Erben publishes Kytice, including the ballad 'Vodník', anchoring the Czech form of the tradition", "significance": "Major literary treatment of the West Slavic vodník", "source": "Erben, Kytice (1853)" },
+      { "date": "1865-01-01", "event": "Aleksandr Afanasyev's Poetic Views of the Slavs on Nature systematises Slavic place-spirit folklore including vodyanoy", "significance": "Foundational ethnographic synthesis", "source": "Afanasyev, Poeticheskie vozzreniia slavian na prirodu (1865–1869)" },
+      { "date": "1896-01-01", "event": "Antonín Dvořák composes the symphonic poem Vodník, Op. 107", "significance": "Internationalizes the West Slavic water-spirit motif", "source": "Dvořák, Vodník Op. 107 (1896)" }
+    ],
+    "modern_era": "The vodyanoy is a fixture of Russian and Czech popular culture, surviving in animation (the Soviet 1979 film The Flying Ship features a beloved comic vodyanoy), opera (Dvořák's Rusalka, 1901), and contemporary fantasy media including the Witcher game series."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +154,137 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "vodyanoy-evidence-afanasyev",
+        "type": "ethnographic synthesis",
+        "name": "Afanasyev's Poetic Views of the Slavs on Nature",
+        "date": "1865-1869",
+        "description": "Three-volume comparative synthesis of Slavic folk religion that includes substantial material on vodyanoy and related water-spirits.",
+        "status": "verified",
+        "analysis": "Foundational 19th-century ethnographic source for vodyanoy folklore.",
+        "source": "Aleksandr Afanasyev (1865–1869)"
+      },
+      {
+        "id": "vodyanoy-evidence-erben",
+        "type": "literary corpus",
+        "name": "Erben's Kytice",
+        "date": "1853",
+        "description": "Czech ballad collection that includes 'Vodník', the canonical West Slavic literary treatment of the water-spirit.",
+        "status": "verified",
+        "analysis": "Codifies the Czech tradition and inspires later musical and operatic treatments.",
+        "source": "Karel Jaromír Erben (1853)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genius loci of waters",
+        "description": "Folkloric framing in which the vodyanoy is the spirit-owner of a particular pool, river, or lake, with which one must enter into reciprocal relations.",
+        "proponents": ["Slavic folk and ethnographic tradition"],
+        "evidence_cited": ["Documented offering practices at mills, fisheries, and dangerous waters"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folk-explanation of drownings and water hazards",
+        "description": "Vodyanoy folklore is read as a culturally specific way of explaining and warning against the genuine dangers of deep pools, mill-races, and untrustworthy ice.",
+        "proponents": ["Folkloristic and ethnographic scholarship"],
+        "evidence_cited": ["Concentration of vodyanoy lore around objectively dangerous waters"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Russian vodyanoy lore",
+        "Czech and Slovak vodník tradition",
+        "Polish topielec tradition"
+      ],
+      "stories": [
+        "Mill-builders making sacrifices to the vodyanoy when raising a new mill",
+        "Fishermen pouring oil or butter onto the water to gain a catch",
+        "Erben's 'Vodník' ballad of the Czech water-spirit and his drowned bride"
+      ],
+      "beliefs": "In Slavic folk belief, water bodies are owned by their vodyanoy, who must be respected and propitiated; the spirit is not simply 'evil' but a powerful, ambivalent owner-being."
+    },
+    "indigenous": {
+      "cultures": ["Russian", "Czech", "Slovak", "Polish", "Slovene", "Belarusian", "Ukrainian"],
+      "significance": "An integral feature of Slavic folk cosmology, especially in fishing, milling, and rural life along rivers and lakes.",
+      "sensitivity_note": "Treatments should distinguish folkloric vodyanoy from later horror-fantasy reinterpretations.",
+      "respect_guidelines": "Where possible cite Slavic-language ethnographic and folkloristic literature."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Karel Jaromír Erben, Kytice (1853)",
+        "Aleksandr Afanasyev, Poetic Views of the Slavs on Nature (1865–1869)"
+      ],
+      "film_tv": [
+        "The Flying Ship (Letuchiy korabl', Soyuzmultfilm, 1979) — features a comic vodyanoy",
+        "Sadko (1953, Soviet Union) — Russian water-king film"
+      ],
+      "games": [
+        "The Witcher 3: Wild Hunt (2015) — features Slavic-inflected water creatures"
+      ],
+      "music": [
+        "Antonín Dvořák, Vodník, symphonic poem Op. 107 (1896)",
+        "Antonín Dvořák, Rusalka (opera, 1901)"
+      ],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Aleksandr Afanasyev", "affiliation": "Russian folklorist", "contribution": "Comparative synthesis of Slavic folk religion and water-spirit lore", "period": "19th century" },
+      { "name": "Karel Jaromír Erben", "affiliation": "Czech folklorist and poet", "contribution": "Documentation and literary treatment of West Slavic vodník", "period": "19th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Vodyanoy is studied within Slavic folklore, ethnography, and comparative religion; there is no cryptozoological field programme."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-vodyanoy",
+      "type": "website",
+      "title": "Vodyanoy",
+      "url": "https://en.wikipedia.org/wiki/Vodyanoy",
+      "publication": "Wikipedia",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "afanasyev-1865",
+      "type": "book",
+      "title": "Poeticheskie vozzreniia slavian na prirodu (Poetic Views of the Slavs on Nature)",
+      "authors": ["Aleksandr Afanasyev"],
+      "publication": "K. Soldatenkov",
+      "date": "1865-1869"
+    },
+    {
+      "id": "erben-1853",
+      "type": "book",
+      "title": "Kytice z pověstí národních (A Bouquet of National Legends)",
+      "authors": ["Karel Jaromír Erben"],
+      "publication": "Pospíšil",
+      "date": "1853"
+    },
+    {
+      "id": "dvorak-vodnik-1896",
+      "type": "other",
+      "title": "Vodník, symphonic poem Op. 107",
+      "authors": ["Antonín Dvořák"],
+      "date": "1896"
+    }
+  ]
 }
